@@ -19,59 +19,59 @@ function Skills() {
                     <Row className="justify-content-center">
                         <h2 className="w-100">Languages & Databases</h2>
                         < Col xs="auto" className="m-4">
-                            <Image src="/images/python.png" width={75} height={75} rounded />
+                            <Image src="https://i.ibb.co/hZqNh5V/python.png" width={75} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="/images/js.png" width={75} height={75} rounded />
+                            <Image src="https://i.ibb.co/ygwxNTZ/js-1.png" width={75} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="/images/go.png" width={75} height={75} rounded />
+                            <Image src="https://i.ibb.co/10n3tJj/go.png" width={75} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="/images/postgres.png" width={75} height={75} rounded />
+                            <Image src="https://i.ibb.co/jM5Q5yd/postgres.png" width={75} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="/images/mysql.png" width={75} height={75} rounded />
+                            <Image src="https://i.ibb.co/vkYpQCX/mysql.png" width={75} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="/images/cassandra.png" width={120} height={75} rounded />
+                            <Image src="https://i.ibb.co/QfdmMVC/cassandra.png" width={120} height={75} rounded />
                         </Col>
                     </Row>
                     <Row className="justify-content-center">
                         <h2 className="w-100">Frameworks & Libraries</h2>
                         < Col xs="auto" className="m-4">
-                            <Image src="/images/Django_Python_WKeIxm6.png" width={90} height={85} rounded />
+                            <Image src="https://i.ibb.co/hK2Js4F/Django-Python-WKe-Ixm6.png" width={90} height={85} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="/images/flask.png" width={75} height={75} rounded />
+                            <Image src="https://i.ibb.co/KDQwt9L/flask.png" width={75} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="/images/fastapi.png" width={120} height={75} rounded />
+                            <Image src="https://i.ibb.co/bsC2sw8/fastapi.png" width={120} height={75} rounded />
                         </Col>
 
                         < Col xs="auto" className="m-4">
-                            <Image src="/images/react.png" width={75} height={75} rounded />
+                            <Image src="https://i.ibb.co/1r1YtXk/react.png" width={75} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="/images/nodejs.png" width={75} height={75} rounded />
+                            <Image src="https://i.ibb.co/Twbv8s7/nodejs.png" width={75} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="/images/pandas.png" width={120} height={75} rounded />
+                            <Image src="https://i.ibb.co/wdsVfKs/pandas.png" width={120} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="/images/numpy.png" width={120} height={70} rounded />
+                            <Image src="https://i.ibb.co/1Gq2SvG/numpy.png" width={120} height={70} rounded />
                         </Col>
                     </Row>
                     <Row className="justify-content-center">
                         <h2 className="w-100">Tools & Platforms</h2>
                         < Col xs="auto" className="m-4">
-                            <Image src="/images/git.png" width={75} height={75} rounded />
+                            <Image src="https://i.ibb.co/7yfSCrz/git-icon.png" width={80} height={80} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="/images/Docker.png" width={85} height={75} rounded />
+                            <Image src="https://i.ibb.co/qsbGsyC/docker.png" width={85} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="/images/spark.png" width={95} height={75} rounded />
+                            <Image src="https://i.ibb.co/PTzPrfk/Spark.png" width={95} height={75} rounded />
                         </Col>
                     </Row>
                 </Zoom>
