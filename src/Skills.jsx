@@ -19,7 +19,7 @@ function Skills() {
                     <Row className="justify-content-center">
                         <h2 className="w-100">Languages & Databases</h2>
                         < Col xs="auto" className="m-4">
-                            <Image src=".\images\python.png" width={75} height={75} rounded />
+                            <Image src="https://codeskulptor-demos.commondatastorage.googleapis.com/GalaxyInvaders/back06.jpg" width={75} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
                             <Image src=".\images\js.png" width={75} height={75} rounded />
