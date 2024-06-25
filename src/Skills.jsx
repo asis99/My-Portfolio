@@ -19,59 +19,59 @@ function Skills() {
                     <Row className="justify-content-center">
                         <h2 className="w-100">Languages & Databases</h2>
                         < Col xs="auto" className="m-4">
-                            <Image src="./images/python.png" width={75} height={75} rounded />
+                            <Image src=".\images\python.png" width={75} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="./images/js.png" width={75} height={75} rounded />
+                            <Image src=".\images\js.png" width={75} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="./images/go.png" width={75} height={75} rounded />
+                            <Image src=".\images\go.png" width={75} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="./images/postgres.png" width={75} height={75} rounded />
+                            <Image src=".\images\postgres.png" width={75} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="./images/mysql.png" width={75} height={75} rounded />
+                            <Image src=".\images\mysql.png" width={75} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="./images/cassandra.png" width={120} height={75} rounded />
+                            <Image src=".\images\cassandra.png" width={120} height={75} rounded />
                         </Col>
                     </Row>
                     <Row className="justify-content-center">
                         <h2 className="w-100">Frameworks & Libraries</h2>
                         < Col xs="auto" className="m-4">
-                            <Image src="./images/Django_Python_WKeIxm6.png" width={90} height={85} rounded />
+                            <Image src=".\images\Django_Python_WKeIxm6.png" width={90} height={85} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="./images/flask.png" width={75} height={75} rounded />
+                            <Image src=".\images\flask.png" width={75} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="./images/fastapi.png" width={120} height={75} rounded />
+                            <Image src=".\images\fastapi.png" width={120} height={75} rounded />
                         </Col>
 
                         < Col xs="auto" className="m-4">
-                            <Image src="./images/react.png" width={75} height={75} rounded />
+                            <Image src=".\images\react.png" width={75} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="./images/nodejs.png" width={75} height={75} rounded />
+                            <Image src=".\images\nodejs.png" width={75} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="./images/pandas.png" width={120} height={75} rounded />
+                            <Image src=".\images\pandas.png" width={120} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="./images/numpy.png" width={120} height={70} rounded />
+                            <Image src=".\images\numpy.png" width={120} height={70} rounded />
                         </Col>
                     </Row>
                     <Row className="justify-content-center">
                         <h2 className="w-100">Tools & Platforms</h2>
                         < Col xs="auto" className="m-4">
-                            <Image src="./images/git.png" width={75} height={75} rounded />
+                            <Image src=".\images\git.png" width={75} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="./images/Docker.png" width={85} height={75} rounded />
+                            <Image src=".\images\Docker.png" width={85} height={75} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="./images/spark.png" width={95} height={75} rounded />
+                            <Image src=".\images\spark.png" width={95} height={75} rounded />
                         </Col>
                     </Row>
                 </Zoom>
