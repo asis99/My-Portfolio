@@ -1,19 +1,55 @@
 import React from "react";
-import './About.css';
+import './style/About.css';
 import { Container } from "react-bootstrap";
-import {Fade, Slide} from "react-awesome-reveal";
+import { Fade, Slide, Zoom } from "react-awesome-reveal";
+import data from "../src/assets/personaldata.json";
+import Image from 'react-bootstrap/Image';
+
 
 function About() {
     return (
-        
-        <div className="d-flex justify-content-center align-items-center min-vh-100">
-            <Container fluid='sm' className="text-center">
-                <Fade><h2 className="about-me">About Me</h2></Fade>
-                <Slide delay={90}>
-                <p className="about">Python developer with 2+ years of experience in developing efficient and scalable application. Proficient in Python frameworks Flask & FastAPI, database management systems like SQL and NoSQL. Skilled in implementing RESTful APIs and integrating third party libraries. Experienced in handling big data, manipulating, modelling and preprocessing data using Python for data driven solutions. Strong problem – solving and debugging skills. Committed to continuously improving code quality and staying updated with the latest industry trends.</p>
+        <div className="about-section">
+            <Container fluid='sm' className="about-container">
+                <Fade>
+                    <h2 className="about-title">About Me</h2>
+                </Fade>
+
+                <Zoom delay={90}>
+                    <p className="about-description">{data.aboutme.aboutme}</p>
+                </Zoom>
+
+                <Slide direction="up" delay={150}>
+                    <div className="about-item">
+                        <div className="item-title">
+                            <Image src={data.aboutme.location.image} width={25} height={25} />
+                            <h3>Location</h3>
+                            <p className="item-description">{data.aboutme.location.currentloc}</p>
+                        </div>
+                    </div>
+                </Slide>
+
+                <Slide direction="up" delay={210}>
+                    <div className="about-item">
+                        <div className="item-title">
+                            <Image src={data.aboutme.education.image} width={25} height={25} />
+                            <h3>Education</h3>
+                            <p className="item-description">{data.aboutme.education.stream}</p>
+                            <p className="item-description">{data.aboutme.institute}</p>
+                        </div>
+                    </div>
+                </Slide>
+
+                <Slide direction="up" delay={270}>
+                    <div className="about-item">
+                        <div className="item-title">
+                            <Image src={data.aboutme.previous_employers.image} width={25} height={25} />
+                            <h3>Current Employer</h3>
+                            <p className="item-description">{data.aboutme.previous_employers.employer}</p>
+                        </div>
+                    </div>
                 </Slide>
             </Container>
-        </div >
+        </div>
     );
 }
 

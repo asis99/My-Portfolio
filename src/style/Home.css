@@ -5,9 +5,11 @@
 }
 
 .text-center .role {
-    font-size: 190%;
+    font-size: 150%;
     margin: 0;
     padding: 0;
+    color: rgb(54, 230, 107);
+    font-family:monospace;
 }
 
 .socialicons {
@@ -16,5 +18,9 @@
     align-items: center;
     margin: 0px;
     padding-top: 20%;
-    gap: 20px;
+    gap: 35px;
 }
+
+
+
+

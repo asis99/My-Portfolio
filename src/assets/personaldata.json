@@ -1,0 +1,85 @@
+{
+    "logo": "https://raw.githubusercontent.com/asis99/git-images/fc293b5d885953b1b3f0e3e49e7713df0f85073f/code-coding-development-svgrepo-com.svg",
+    "emailaddress": "mailto:atjobasisdash@gmail.com",
+    "githubAddress":"https://github.com/asis99",
+    "linkedinurl":"https://linkedin.com/in/asisad",
+    "resumelink":"https://drive.google.com/file/d/1oyW-y7y8kJoOZjQLLQiAtJYMTaytgb6e/preview",
+    "infoicon": "https://raw.githubusercontent.com/asis99/git-images/20c4815992ead17d665b2242ac99ffef4644506c/info-circle-svgrepo-com.svg",
+    "aboutme": {
+        "aboutme": "I am a passionate Python Developer with a deep love for web and software development. My journey in tech has been driven by a relentless curiosity and a commitment to mastering the craft. I thrive on solving complex problems, with a strong foundation in software design patterns, data structures, algorithms, and both object-oriented and functional programming paradigms. I'm proficient in Python and have honed my skills in database management, RESTful services, and Python frameworks like Flask, Django, and FastAPI. My enthusiasm for learning has also led me to explore the realms of machine learning and deep learning, where I enjoy working on model development, deployment, and high-volume data processing. I'm excited about the endless possibilities technology offers and am always eager to take on new challenges, contribute to innovative projects, and continue growing as a developer.",
+        "education": {
+            "stream": "B.Sc In Physics Honours",
+            "image": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/education.svg"
+        },
+        "institute": "Berhampur University, Odisha",
+        "location": {
+            "currentloc": "Hyderabad, India",
+            "image": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/location.svg"
+        },
+        "previous_employers": {
+            "employer": "Python Developer, Apollodart KI Solutions Pvt. LTD, Hyderabd, Telengana",
+            "image": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/employer.svg"
+        }
+    },
+    "skills": {
+        "lang_and_database": {
+            "python": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/python.svg",
+            "rust": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/rust.svg",
+            "cassandra": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/cassandra.svg",
+            "js": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/js.svg",
+            "sql": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/sql.svg",
+            "postgresql": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/postgres.svg",
+            "mysql": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/mysql.svg"
+        },
+        "frameworks_and_libraries": {
+            "django": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/django.svg",
+            "fastapi": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/fastapi.svg",
+            "flask": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/flask.svg",
+            "scikit_learn": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/scikit.svg",
+            "tensorflow": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/tensorflow.svg",
+            "pytorch": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/pytorch.svg",
+            "react": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/react.svg",
+            "spark": "https://raw.githubusercontent.com/asis99/git-images/main/Spark.png",
+            "pandas": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/pandas.svg",
+            "numpy": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/numpy.svg"
+        },
+        "tools_and_paltforms": {
+            "docker": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/docker.svg",
+            "anaconda": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/anaconda.svg",
+            "git": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/git.svg",
+            "node": "https://raw.githubusercontent.com/asis99/git-images/4edc2392e16d764b955b4692542617d8c616aecd/node.svg"
+        }
+    },
+    "projects": [
+        {
+            "projectName": "My Portfolio",
+            "abutProject": "Developer Portfolio Website made in React & Boot-Strap. Fully customisable and dynamic, easily change data, renders images & easy navigation.",
+            "projectLink": "",
+            "projectImage": "https://raw.githubusercontent.com/asis99/git-images/main/portfolio.jpg"
+        },
+        {
+            "projectName": "Pokedex",
+            "abutProject": "Pokedex to search any poekemon. To know all about their special moves and power. Fully Responsive made with JS, HTML, CSS, used poekmon API to collect data for all Pokemons.",
+            "projectLink": "https://pokedex-sigma-flame.vercel.app/",
+            "projectImage": "https://raw.githubusercontent.com/asis99/git-images/main/pokemon.jpg"
+        },
+        {
+            "projectName": "CNN digit claasify",
+            "abutProject": "Personal Hand-written digit recognition model, using Tensorflow trained on over 1GB of image data to optimise the prediction & powered by CNN neural networks. Used Python & Streamlit to Publish the model, Hosted on HuggingFace.",
+            "projectLink": "https://huggingface.co/spaces/asisdash/digit-recognition",
+            "projectImage": "https://raw.githubusercontent.com/asis99/git-images/main/digit-classify.jpg"
+        },
+        {
+            "projectName": "Cat & Dog Classifier",
+            "abutProject": "Implmented custom model using CNN to classify the image of Dog & Cat. Trained on multicore GPU's, used TenssorFlow to develop the Neural networks. Built the UI to make my model available to the public using Streamlit.",
+            "projectLink": "https://custom-cat-dog-mode.streamlit.app/",
+            "projectImage": "https://raw.githubusercontent.com/asis99/git-images/main/cat-and-dog.jpg"
+        },
+        {
+            "projectName": "Under Development",
+            "abutProject": "Project is under developement.",
+            "projectLink": "",
+            "projectImage": "https://raw.githubusercontent.com/asis99/git-images/20c4815992ead17d665b2242ac99ffef4644506c/development.svg"
+        }
+    ]
+}

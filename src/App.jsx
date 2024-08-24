@@ -1,6 +1,6 @@
 import NavBarRouter from "./Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import './style/App.css';
 
 function App() {
 

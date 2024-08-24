@@ -3,8 +3,9 @@ import { Container } from "react-bootstrap";
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
-import './Skills.css';
+import './style/Skills.css';
 import { Zoom, Fade } from "react-awesome-reveal";
+import data from "../src/assets/personaldata.json"
 
 function Skills() {
     return (
@@ -18,60 +19,78 @@ function Skills() {
                 <Zoom>
                     <Row className="justify-content-center">
                         <h2 className="w-100">Languages & Databases</h2>
-                        < Col xs="auto" className="m-4">
-                            <Image src="https://i.ibb.co/hZqNh5V/python.png" width={75} height={75} rounded />
+                        < Col xs="auto" className="m-3">
+                            <Image src={data.skills.lang_and_database.python} width={75} height={75} rounded />
                         </Col>
-                        < Col xs="auto" className="m-4">
-                            <Image src="https://i.ibb.co/ygwxNTZ/js-1.png" width={75} height={75} rounded />
+                        < Col xs="auto" className="m-3">
+                            <Image src={data.skills.lang_and_database.rust} width={75} height={75} rounded />
                         </Col>
-                        < Col xs="auto" className="m-4">
-                            <Image src="https://i.ibb.co/10n3tJj/go.png" width={75} height={75} rounded />
+                        < Col xs="auto" className="m-3">
+                            <Image src={data.skills.lang_and_database.js} width={75} height={75} rounded />
                         </Col>
-                        < Col xs="auto" className="m-4">
-                            <Image src="https://i.ibb.co/jM5Q5yd/postgres.png" width={75} height={75} rounded />
+                        < Col xs="auto" className="m-3">
+                            <Image src={data.skills.lang_and_database.sql} width={75} height={75} rounded />
                         </Col>
-                        < Col xs="auto" className="m-4">
-                            <Image src="https://i.ibb.co/vkYpQCX/mysql.png" width={75} height={75} rounded />
+                        < Col xs="auto" className="m-3">
+                            <Image src={data.skills.lang_and_database.postgresql} width={75} height={75} rounded />
                         </Col>
-                        < Col xs="auto" className="m-4">
-                            <Image src="https://i.ibb.co/QfdmMVC/cassandra.png" width={120} height={75} rounded />
+                        < Col xs="auto" className="m-3">
+                            <Image src={data.skills.lang_and_database.mysql} width={120} height={95} rounded />
+                        </Col>
+                        < Col xs="auto" className="m-3">
+                            <Image src={data.skills.lang_and_database.cassandra} width={100} height={100} rounded />
                         </Col>
                     </Row>
                     <Row className="justify-content-center">
                         <h2 className="w-100">Frameworks & Libraries</h2>
-                        < Col xs="auto" className="m-4">
-                            <Image src="https://i.ibb.co/hK2Js4F/Django-Python-WKe-Ixm6.png" width={90} height={85} rounded />
+                        < Col xs="auto" className="m-3">
+                            <Image src={data.skills.frameworks_and_libraries.django} width={110} height={85} rounded />
                         </Col>
-                        < Col xs="auto" className="m-4">
-                            <Image src="https://i.ibb.co/KDQwt9L/flask.png" width={75} height={75} rounded />
+                        < Col xs="auto" className="m-3">
+                            <Image src={data.skills.frameworks_and_libraries.fastapi} width={75} height={75} rounded />
                         </Col>
-                        < Col xs="auto" className="m-4">
-                            <Image src="https://i.ibb.co/bsC2sw8/fastapi.png" width={120} height={75} rounded />
+                        < Col xs="auto" className="m-3">
+                            <Image src={data.skills.frameworks_and_libraries.flask} width={120} height={75} rounded />
                         </Col>
 
-                        < Col xs="auto" className="m-4">
-                            <Image src="https://i.ibb.co/1r1YtXk/react.png" width={75} height={75} rounded />
+                        < Col xs="auto" className="m-3">
+                            <Image src={data.skills.frameworks_and_libraries.scikit_learn} width={120} height={100} rounded />
                         </Col>
-                        < Col xs="auto" className="m-4">
-                            <Image src="https://i.ibb.co/Twbv8s7/nodejs.png" width={75} height={75} rounded />
+
+                        < Col xs="auto" className="m-3">
+                            <Image src={data.skills.frameworks_and_libraries.tensorflow} width={120} height={75} rounded />
                         </Col>
-                        < Col xs="auto" className="m-4">
-                            <Image src="https://i.ibb.co/wdsVfKs/pandas.png" width={120} height={75} rounded />
+
+                        < Col xs="auto" className="m-3">
+                            <Image src={data.skills.frameworks_and_libraries.pytorch} width={120} height={75} rounded />
                         </Col>
-                        < Col xs="auto" className="m-4">
-                            <Image src="https://i.ibb.co/1Gq2SvG/numpy.png" width={120} height={70} rounded />
+
+                        < Col xs="auto" className="m-3">
+                            <Image src={data.skills.frameworks_and_libraries.react} width={75} height={75} rounded />
+                        </Col>
+                        < Col xs="auto" className="m-3">
+                            <Image src={data.skills.frameworks_and_libraries.spark} width={100} height={75} rounded />
+                        </Col>
+                        < Col xs="auto" className="m-3">
+                            <Image src={data.skills.frameworks_and_libraries.pandas} width={120} height={75} rounded />
+                        </Col>
+                        < Col xs="auto" className="m-3">
+                            <Image src={data.skills.frameworks_and_libraries.numpy} width={120} height={70} rounded />
                         </Col>
                     </Row>
                     <Row className="justify-content-center">
                         <h2 className="w-100">Tools & Platforms</h2>
                         < Col xs="auto" className="m-4">
-                            <Image src="https://i.ibb.co/7yfSCrz/git-icon.png" width={80} height={80} rounded />
+                            <Image src={data.skills.tools_and_paltforms.git} width={80} height={80} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="https://i.ibb.co/qsbGsyC/docker.png" width={85} height={75} rounded />
+                            <Image src={data.skills.tools_and_paltforms.docker} width={100} height={90} rounded />
                         </Col>
                         < Col xs="auto" className="m-4">
-                            <Image src="https://i.ibb.co/PTzPrfk/Spark.png" width={95} height={75} rounded />
+                            <Image src={data.skills.tools_and_paltforms.anaconda} width={95} height={75} rounded />
+                        </Col>
+                        < Col xs="auto" className="m-4">
+                            <Image src={data.skills.tools_and_paltforms.node} width={100} height={95} rounded />
                         </Col>
                     </Row>
                 </Zoom>
