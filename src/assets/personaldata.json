@@ -54,7 +54,7 @@
         {
             "projectName": "My Portfolio",
             "abutProject": "Developer Portfolio Website made in React & Boot-Strap. Fully customisable and dynamic, easily change data, renders images & easy navigation.",
-            "projectLink": "",
+            "projectLink": "https://my-portfolio-eight-delta-22.vercel.app/",
             "projectImage": "https://raw.githubusercontent.com/asis99/git-images/main/portfolio.jpg"
         },
         {
